@@ -6,7 +6,7 @@ int main()
     int S = 0;
     int i = 0;
     
-    while (i <= n)
+    while (i < n)
     {
        S += i ;
        i++ ;
