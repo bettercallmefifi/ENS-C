@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 void dessiner_rectangle(int largeur, int hauteur) {
-    // Dessiner la première ligne
     printf("+");
     for (int i = 0; i < largeur; i++) {
         printf("-");
     }
     printf("+\n");
 
-    // Dessiner les lignes intermédiaires
     for (int j = 0; j < hauteur; j++) {
         printf("|");
         for (int i = 0; i < largeur; i++) {
@@ -16,8 +14,6 @@ void dessiner_rectangle(int largeur, int hauteur) {
         }
         printf("|\n");
     }
-
-    // Dessiner la dernière ligne
     printf("+");
     for (int i = 0; i < largeur; i++) {
         printf("-");
